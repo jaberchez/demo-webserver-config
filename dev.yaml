@@ -1,0 +1,2 @@
+DB_USER: ${vault:apps/demo-webserver@DB_USER_DEV}
+DB_PASSWORD: ${vault:apps/demo-webserver@DB_PASSWORD_DEV}
